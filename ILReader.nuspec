@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>ILReader</id>
+        <version>1.0.0</version>
+        <authors>Jeremy Beavon (NuGet),Haibo Luo (Everything else)</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Reads IL instructions at runtime. 
+
+See http://blogs.msdn.com/b/haibo_luo/archive/2006/11/06/system-reflection-based-ilreader.aspx</description>
+    </metadata>
+    <files>
+        <file src="bin\Release\ClrTest.Reflection.ILReader.dll" target="lib\ClrTest.Reflection.ILReader.dll" />
+    </files>
+</package>
